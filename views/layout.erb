@@ -3,10 +3,25 @@
     <head>
       <title>Hello Friend!</title>
       <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+      <link rel='stylesheet' href='styles.css'>
     </head>
     <body>
-      <div class="container">
+      <div class="container-fluid" id="main_guy">
+      <!-- <div class="row"> -->
+                <!-- <div class="col-md-3">
+                </div> -->
+        <div id="page_head">
+        <h1 id="head_header">Enter the word you want to count</h1>
+        <h3>...and the sentence you want to count it in!</h3>
+        <h4>(it's pointless and silly, but best of all free!)</h4>
+        </div>
+                <!-- <div class="col-md-3">
+                </div> -->
+      <div class="container" id="main">
+        <div class="form1">
         <%= yield %>
       </div>
+      </div>
+    <!-- </div> -->
     </body>
   </html>

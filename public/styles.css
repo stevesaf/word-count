@@ -1,0 +1,37 @@
+#main_guy {
+align-items: center;
+}
+
+body {
+background-image: url("http://www.clipartkid.com/images/154/clipartbest-com-FBz82W-clipart.png");
+align-items: center;
+}
+
+#page_head {
+text-align: center!important;
+}
+
+#head_header {
+  font-size: 50px;
+}
+
+#form_header {
+  color: black;
+}
+
+#main {
+margin-top: 250px;
+vertical-align: middle !important;
+/*padding-bottom: 20px;*/
+align-items: center !important;
+border: 5px solid white;
+border-radius: 25px;
+width: 1300px;
+height: 300px;
+background-color: #cdcdcd;
+}
+
+.form1 {
+  margin-top: 30px;
+  align-items: center;
+}
