@@ -1,3 +1,5 @@
+require('pry')
+
 class String
 
   define_method(:word_count) do |var1|
@@ -5,10 +7,15 @@ class String
     arr = self.split()
 
     arr.each() do |word|
-      if word.casecmp(var1) == 0
+      # binding.pry
+
+      # if word.include?(var1)
+
+        if word.casecmp(var1) == 0
         bucket.push(word)
 
-      end
+        end
+      # end
 
     end
 
