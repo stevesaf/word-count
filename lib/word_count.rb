@@ -5,7 +5,7 @@ class String
     arr = self.split()
 
     arr.each() do |word|
-      if (word == var1)
+      if word.casecmp(var1) == 0
         bucket.push(word)
 
       end
